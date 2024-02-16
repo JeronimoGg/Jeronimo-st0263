@@ -1,0 +1,19 @@
+Actividades:
+
+1.	Preguntas que tiene del enunciado (entendimiento del problema)
+2.	Defina la versión inicial de la arquitectura y tipo de red P2P, revísela con otros compañeros y reciba retroalimentación del profesor.
+Seria de tipo no estructurada basada en un servidor central de directorio y localización, con sus índices centralizados, esto significa que para acceder a algún recurso se tiene que preguntar por medio de un query al servidor. Este tipo de red es ideal debido a su flexibilidad y simplicidad relativa en comparación con las redes P2P estructuradas. Al no tener una estructura rígida, es más fácil implementar y escalar, especialmente en las etapas iniciales del proyecto.
+
+3.	Defina los servicios específicos que tendrá cada componente del sistema
+Algunos de los servicios que habría serían los siguientes:
+
+- Para cada nodo(peer) se tendría el login y loggout, esto para tener siempre el conocimiento de cuales nodos están activos y cuales nodos no.
+- Cada nodo podrá realizar consultas(querys) sobre los recursos o archivos que hay disponibles en cada nodo.
+
+4.	Defina las interacciones entre componentes, los tipos de comunicaciones y tipo de middleware especifico que va a emplear (REST API, gRPC, MOM), debe emplear todos estos middlewares.
+5.	Defina un plan de desarrollo, desde victorias tempranas, hasta la finalización del proyecto.
+6.	Desarrollo y Pruebas en localhost o AWS
+7.	Despliegue los nodos como máquinas virtuales con docker en AWS Academy 
+8.	Realice pruebas en AWS.
+9.	Realice la documentación
+Entregue y sustente al profesor mediante un video creado por ud donde explique el proceso de diseño, desarrollo y ejecución (no más de 30 mins)
