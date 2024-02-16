@@ -9,6 +9,7 @@ Algunos de los servicios que habría serían los siguientes:
 
 - Para cada nodo(peer) se tendría el login y loggout, esto para tener siempre el conocimiento de cuales nodos están activos y cuales nodos no.
 - Cada nodo podrá realizar consultas(querys) sobre los recursos o archivos que hay disponibles en cada nodo.
+- Cuando un cliente cumpla un timeout el servidor sabrá que tiene un problema.
 
 4.	Defina las interacciones entre componentes, los tipos de comunicaciones y tipo de middleware especifico que va a emplear (REST API, gRPC, MOM), debe emplear todos estos middlewares.
 5.	Defina un plan de desarrollo, desde victorias tempranas, hasta la finalización del proyecto.
