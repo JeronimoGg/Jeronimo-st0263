@@ -1,6 +1,7 @@
-info de la materia: ST-0263
+Topicos de Telematicas: ST-0263
 
 Estudiante(s): Jeronimo Gonzalez, jgonzalez7@eafit.edu.co
+
 Profesor: Edwin Montoya, emontoya@eafit.edu.co
 
 RETO #1
