@@ -28,8 +28,8 @@ El proyecto se diseñó con una arquitectura peer-to-peer (P2P), permitiendo que
 ## como se compila y ejecuta.
 - Para compilar y ejecutar este proyecto, primero se debe asegurar que Node.js esté instalado en el sistema. Luego, los pasos serían los siguientes:
    - Instalación de dependencias: Abrir una terminal en el directorio del proyecto y ejecutar el siguiente comando para instalar las dependencias necesarias: ```npm install```
-   - Ejecución del servidor: Iniciar el servidor central ejecutando el siguiente comando en la terminal: ```node serverc.js```
-   - Ejecución de los nodos/peers: Abrir una nueva terminal para cada nodo/peer y ejecutar el siguiente comando para cada uno: ```node peerc.js```
+   - Ejecución del servidor: Iniciar el servidor central ejecutando el siguiente comando en la terminal: ```node Server.js```
+   - Ejecución de los nodos/peers: Abrir una nueva terminal para cada nodo/peer y ejecutar el siguiente comando para cada uno: ```node Pcliente.js```
 -  Una vez que el servidor y los peers estén en funcionamiento, se pueden realizar peticiones a través de Postman. Abra Postman y realice las solicitudes HTTP según la API definida en el servidor y los endpoints disponibles en los peers.
 ## detalles del desarrollo.
 - Implementación de la Comunicación entre Nodos
