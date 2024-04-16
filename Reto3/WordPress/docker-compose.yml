@@ -7,7 +7,7 @@ services:
       - 80:80      
     restart: always
     environment:
-      WORDPRESS_DB_HOST: <ip-privada>
+      WORDPRESS_DB_HOST: 172.31.91.22
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
