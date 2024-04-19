@@ -12,6 +12,6 @@ services:
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
     volumes:
-      - wordpress:/var/www/html
+      - /mnt/nfs_client/:/var/www/html
 volumes:
   wordpress:

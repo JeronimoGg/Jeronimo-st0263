@@ -1,1 +1,0 @@
-/var/nfs/general 172.31.89.131(rw,sync,no_subtree_check) 172.31.89.11(rw,sync,no_subtree_check)
